@@ -2,6 +2,7 @@
 import React, { Component } from 'react'
 import Row from './Row'
 import * as BooksAPI from '../BooksAPI'
+import { Link } from 'react-router-dom'
 
 class Shelf extends Component {
   state = {
