@@ -6,7 +6,6 @@ import SearchBar from './SearchBar'
 const Page = (props) => {
   return (
     <div className="Whole-page">
-      <SearchBar/>
       <Title />
       <Shelf />
     </div>

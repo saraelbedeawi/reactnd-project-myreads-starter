@@ -58,6 +58,9 @@ class Shelf extends Component {
               onShelfUpdate={this.onShelfUpdate}/>
           ))}
 		</ul>
+    <Link to="/search">
+    	Search book to add:
+      </Link>
 	  </div>
     )
   }
