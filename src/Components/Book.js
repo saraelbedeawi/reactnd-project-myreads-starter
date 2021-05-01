@@ -10,10 +10,11 @@ class Book extends Component {
       <li className="book">
 		  <div className="book">
       	<div className="book-top">
-      	  <div
-      		className="book-cover"
-      		style={{ width: 130,
-      				 height: 200,
+      	 
+		    <div
+  
+	  	className="book-cover"
+      		style={{ 
       				 backgroundImage: `url(${book.imageLinks ? book.imageLinks.thumbnail : noCoverImage})`
 		    }}>
 		  </div>
