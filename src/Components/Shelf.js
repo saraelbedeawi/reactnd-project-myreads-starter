@@ -1,8 +1,8 @@
-  
-import React, { Component } from 'react'
-import Row from './Row'
+ import React, { Component } from 'react'
+ 
 import * as BooksAPI from '../BooksAPI'
 import { Link } from 'react-router-dom'
+import Row from './Row'
 
 class Shelf extends Component {
   state = {
@@ -41,13 +41,10 @@ class Shelf extends Component {
     	name: 'Want To Read',
     	books: allBooks.filter(book => book.shelf === 'wantToRead')
       },
-      {
-    	name: 'Current Reading',
-    	books: allBooks.filter(book => book.shelf === 'currentlyReading')
-      }
+      {name: 'Reading Now',
+    	books: allBooks.filter(book => book.shelf === 'currentlyReading')}
      
     ]
-
 	return (
       <div className="list-books-content">
         <ul>
