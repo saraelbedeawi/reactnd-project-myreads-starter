@@ -5,7 +5,7 @@ Using BooksAPI
 Using REACT JS, css
 | Description                         | Checkmark               |
 | ----------------------------------- | ----------------------- |
-| HTML Entity: check mark             | &check;                 |
+|<input type="checkbox" disabled checked /> HTML Entity: check mark             | &check;                 |
 | HTML Entity: heavy check mark       | &#10004;                |
 | HTML Entity: ballot box with check  | &#9745;                 |
 | HTML Entity: ballot box with x      | &#9746;                 |
